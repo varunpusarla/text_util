@@ -5,7 +5,9 @@
     <title>Title</title>
 </head>
 <body>
+<div class="header">
 <h1>Welcome to text analyzer</h1>
+</div>
 <form action='/analyze' method='post'> {% csrf_token%}
     <textarea name='text' style='margin:0px; width:721px; height:93px;'></textarea><br>
     <input type="checkbox" name="removepunc"> Remove Punctuations <br>
